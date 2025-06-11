@@ -91,8 +91,8 @@ export class QuestController {
         },
         where: {
           projectId: projectId,
-          state: ["SCHEDULED", "ONGOING", "READY_TO_SETTLE", "SETTLED"],
-          visibility: ["PUBLIC", "PUBLIC_EXPLORABLE"],
+          state: ["ONGOING"],
+          visibility: ["PUBLIC"],
         },
       };
 
